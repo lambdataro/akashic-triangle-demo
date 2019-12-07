@@ -1,6 +1,6 @@
 # akashic-triangle-demo
 
-[Akashic Engine](https://akashic-games.github.io/) で線分を描画するデモ
+[Akashic Engine](https://akashic-games.github.io/) で三角形を描画するデモ
 
 [デモはこちら](https://lambdataro.github.io/akashic-triangle-demo/)
 
