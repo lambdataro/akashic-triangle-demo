@@ -1,0 +1,19 @@
+{
+    "name": "akashic-triangle-demo",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "rimraf script && tsc",
+        "start": "akashic-sandbox",
+        "watch": "tsc -w",
+        "deploy": "npm run build && rimraf public && akashic export html --magnify --output public && gh-pages -d public"
+    },
+    "dependencies": {
+        "@akashic/akashic-engine": "^2.6.1"
+    },
+    "devDependencies": {
+        "@akashic/akashic-cli": "^1.8.20",
+        "gh-pages": "^2.1.1",
+        "rimraf": "^3.0.0",
+        "typescript": "^3.7.2"
+    }
+}
